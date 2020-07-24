@@ -1,0 +1,10 @@
+{
+	"_Type": "Action.Type.OfflineOData.Close",
+	"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+	"Force": true,
+	"ActionResult": {
+		"_Name": "close"
+	},
+	"OnSuccess": "/MyCanteen01/Actions/Service/CloseOfflineSuccessMessage.action",
+	"OnFailure": "/MyCanteen01/Actions/Service/CloseOfflineFailureMessage.action"
+}

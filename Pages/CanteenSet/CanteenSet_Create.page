@@ -1,0 +1,39 @@
+{
+	"ActionBar": {
+		"Items": [{
+			"OnPress": "/MyCanteen01/Actions/CloseModalPage_Cancel.action",
+			"Position": "left",
+			"SystemItem": "Cancel"
+		}, {
+			"OnPress": "/MyCanteen01/Actions/CanteenSet/CanteenSet_CreateEntity.action",
+			"Position": "right",
+			"SystemItem": "Save"
+		}]
+	},
+	"Caption": "Create Customer",
+	"Controls": [{
+		"Sections": [{
+			"Controls": [
+	{
+		"Caption": "CanteenID",
+		"_Name": "CanteenID",
+		"_Type": "Control.Type.FormCell.SimpleProperty"
+	},
+	{
+		"Caption": "Location",
+		"_Name": "Location",
+		"_Type": "Control.Type.FormCell.SimpleProperty"
+	},
+	{
+		"Caption": "Name",
+		"_Name": "Name",
+		"_Type": "Control.Type.FormCell.SimpleProperty"
+	}
+]
+		}],
+		"_Name": "FormCellContainer",
+		"_Type": "Control.Type.FormCellContainer"
+	}],
+	"_Type": "Page",
+	"_Name": "CanteenSet_Create"
+}

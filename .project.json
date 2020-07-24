@@ -1,0 +1,20 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "4dd47d03-c676-4c6e-b033-8bf1ce1210e2",
+		"Space": "d6876277-5b4d-4f73-bc0f-d47d079ea5c3"
+	},
+	"MobileService": {
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/4dd47d03-c676-4c6e-b033-8bf1ce1210e2/space/d6876277-5b4d-4f73-bc0f-d47d079ea5c3",
+		"AppId": "MyCanteen01",
+		"Destination": [
+			"MyCanteen01Endpoint"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=MyCanteen01&ClientId=6e731a59-45d8-4c63-9818-b70feccdff80&SapCloudPlatformEndpoint=https://ic-cf-2020-team-303-mycanteen01.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://ic-cf-2020-team-303-mycanteen01.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://ic-cf-2020-team-303-mycanteen01.cfapps.eu10.hana.ondemand.com&TokenUrl=https://ic-cf-2020-team-303-mycanteen01.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	}
+}

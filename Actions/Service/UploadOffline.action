@@ -1,0 +1,9 @@
+{
+	"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/MyCanteen01/Actions/Service/DownloadStartedMessage.action",
+	"OnFailure": "/MyCanteen01/Actions/Service/SyncFailureMessage.action"
+}

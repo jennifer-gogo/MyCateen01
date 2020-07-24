@@ -1,0 +1,13 @@
+{
+	"Target": {
+		"EntitySet": "BookingSet",
+		"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"OnSuccess": "/MyCanteen01/Actions/DeleteEntitySuccessMessage.action",
+	"OnFailure": "/MyCanteen01/Actions/DeleteEntityFailureMessage.action",
+	"ActionResult": {
+		"_Name": "delete"
+	},
+	"_Type": "Action.Type.ODataService.DeleteEntity"
+}

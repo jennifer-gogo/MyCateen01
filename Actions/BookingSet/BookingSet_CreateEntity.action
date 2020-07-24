@@ -1,0 +1,21 @@
+{
+	"CreateLinks": [],
+	"OnFailure": "/MyCanteen01/Actions/CreateEntityFailureMessage.action",
+	"OnSuccess": "/MyCanteen01/Actions/CreateEntitySuccessMessage.action",
+	"Properties": {
+	"BookingDate": "#Control:BookingDate/#Value",
+	"BookingID": "#Control:BookingID/#Value",
+	"MenuID": "#Control:MenuID/#Value",
+	"Price": "#Control:Price/#Value",
+	"Status": "#Control:Status/#Value",
+	"User": "#Control:User/#Value"
+},
+	"Target": {
+		"EntitySet": "BookingSet",
+		"Service": "/MyCanteen01/Services/MyCanteen01Ser.service"
+	},
+	"ActionResult": {
+		"_Name": "create"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

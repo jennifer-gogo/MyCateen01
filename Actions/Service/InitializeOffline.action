@@ -1,0 +1,25 @@
+{
+	"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+	"DefiningRequests": [
+	{
+		"Name": "BookingSet",
+		"Query": "BookingSet"
+	},
+	{
+		"Name": "CanteenSet",
+		"Query": "CanteenSet"
+	},
+	{
+		"Name": "MenuSet",
+		"Query": "MenuSet"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Downloading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/MyCanteen01/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/MyCanteen01/Actions/Service/InitializeOfflineFailureMessage.action"
+}

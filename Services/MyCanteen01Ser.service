@@ -1,0 +1,6 @@
+{
+	"AppId": "MyCanteen01",
+	"DestinationName": "MyCanteen01Endpoint",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": false
+}

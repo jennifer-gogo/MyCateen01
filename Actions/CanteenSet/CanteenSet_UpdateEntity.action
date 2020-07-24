@@ -1,0 +1,19 @@
+{
+	"_Type": "Action.Type.ODataService.UpdateEntity",
+	"Target": {
+		"EntitySet": "CanteenSet",
+		"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+		"ReadLink": "{@odata.readLink}"
+	},
+	"Properties":  {
+	"CanteenID": "#Control:CanteenID/#Value",
+	"Location": "#Control:Location/#Value",
+	"Name": "#Control:Name/#Value"
+},
+	"UpdateLinks": [],
+	"ActionResult": {
+		"_Name": "update"
+	},
+	"OnSuccess": "/MyCanteen01/Actions/UpdateEntitySuccessMessage.action",
+	"OnFailure": "/MyCanteen01/Actions/UpdateEntityFailureMessage.action"
+}

@@ -1,0 +1,22 @@
+{
+	"Service": "/MyCanteen01/Services/MyCanteen01Ser.service",
+	"DefiningRequests": [
+	{
+		"Name": "BookingSet",
+		"Query": "BookingSet"
+	},
+	{
+		"Name": "CanteenSet",
+		"Query": "CanteenSet"
+	},
+	{
+		"Name": "MenuSet",
+		"Query": "MenuSet"
+	}
+],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnFailure": "/MyCanteen01/Actions/Service/SyncFailureMessage.action"
+}
